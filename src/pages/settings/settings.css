@@ -1,0 +1,129 @@
+.settings {
+    display: flex;
+}
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+/* .settingsDeleteTitle {
+    width: 120px;
+    align-self: center;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: teal;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 4px 4px lightgray;
+} */
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
+.settingsPPTitle {
+    color: coral;
+    font-weight: 600;
+}
+
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.settingsPP > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPPIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.settingsPPIcon:hover {
+    background-color: brown;
+    color: white;
+}
+
+.settingsForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+
+    color: coral;
+    font-weight: 600;
+}
+
+.settingsForm > input {
+    
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid gray;
+
+    width: 50%;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    color: coral;
+}
+
+.settingsForm > input:focus {
+    outline: none;
+}
+
+.settingsSubmit {
+    margin-bottom: 10px;
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 4px 4px 10px black;
+}   
