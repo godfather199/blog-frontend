@@ -73,18 +73,19 @@ export default function Settings() {
           <label>Username</label>
           <input
             type="text"
-            placeholder={user.username}
+            value={user.username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <label>Email</label>
           <input
             type="email"
-            placeholder={user.email}
+            value ={user.email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <label>Password</label>
           <input
-            type="text"
+            type="password"
+            value = {user.password}
             onChange={(e) => setPassword(e.target.value)}
           />
           <button className="settingsSubmit" type="submit">

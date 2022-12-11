@@ -46,18 +46,6 @@
     padding: 30px;
 }
 
-/* .sidebarList {
-    list-style: none;
-    margin-bottom: 30px;
-}
-
-.sidebarListItem {
-    display: inline-block;
-    width: 50%;
-    margin-top: 15px;
-    cursor: pointer;
-} */
-
 .sidebarList {
     
     list-style-type: none;
@@ -97,4 +85,5 @@
     font-size: 23px;
     margin-left: 10px;
     cursor: pointer;
-}  
+}   
+
