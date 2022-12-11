@@ -8,11 +8,12 @@ import './sidebar.css'
 function Sidebar() {
   const [cats, setCats] = useState([])
   const {user} = useContext(Context)
-  const PF = 'http://localhost:5000/images/'
+  // const PF = 'http://localhost:5000/images/'
+  const PF = 'https://blogarticleapi.onrender.com/images/'
 
   useEffect(() => {
     const getCats = async () => {
-      const res = await axios.get('http://localhost:5000/api/categories')
+      const res = await axios.get('https://blogarticleapi.onrender.com/api/categories')
       setCats(res.data)
     }
 
